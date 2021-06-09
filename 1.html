@@ -1,0 +1,197 @@
+<html>
+
+<head>
+    <title>疫情防控报备证明</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">document.write('<script src="config/config.js?timestamp='+new Date().getTime()+'" type="text/javascript" charset="utf-8"><\/script>');</script>
+    
+
+    <style type="text/css">
+        html,
+        body {
+            width: 100%;
+            /* font-size: 1rem; */
+        }
+
+        .text {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'SimHei SimSun';
+            font-size: 1.5rem;
+        }
+
+        .time {
+            text-align: center;
+            /*color: rgb(112,110,108);*/
+            color: #DF000A;
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        .contain {
+            text-align: center;
+            margin: auto;
+            /* margin-top: 12px; */
+            width: 95%;
+            height: 650px;
+            box-shadow: #bbb 0px 2px 4px;
+
+
+        }
+
+        .tou {
+            width: 90px;
+            height: 130px;
+            /*background-color: blue;*/
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: relative;
+        }
+
+        .tg {
+            top: 160px;
+            left: 125px;
+            /* position: relative; */
+        }
+
+        .nei {
+            color: #000000;
+            font-size: 16px;
+            padding: 0 50px;
+            margin-top: 170px;
+            font-family: SimHei;
+        }
+
+        .btnList {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn {
+            font-size: .95em;
+            margin-top: 8px;
+            padding: 10px 15px;
+
+        }
+
+        .btn1 {
+            margin-left: 8px;
+            margin-right: 8px;
+            color: white;
+            background-color: #1888F6;
+        }
+
+        .btn2 {
+            color: white;
+            margin-left: 8px;
+            margin-right: 15px;
+            background-color: #F7906F;
+        }
+        .btn3 {
+            color: white;
+            background-color: #07C160;
+        }
+
+        .tx {
+            margin-bottom: 9px;
+            font-size: .95em;
+            font-weight: 400;
+            font-family: 'Microsoft JhengHei';
+        }
+      
+        #fl {
+            height: 110px;
+            width: 130px;
+            position: absolute;
+            left: 65%;
+            /* transform: translateX(-50%); */
+            z-index: 3;
+            /* left: 120px; */
+            margin-top: 85px;
+            margin-left: -40px;
+        }
+
+        #f2 {
+            height: 150px;
+            width: 110px;
+            margin-top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 2;
+
+        }
+
+        #f3 {
+            height: 110px;
+            width: 130px;
+            position: absolute;
+            z-index: 3;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .count{
+            width: 20rem;
+            margin: auto;
+            font-size: .8rem;
+            color: #43358F;
+            font-weight: bold;
+        }
+        .count .span{
+            font-size: 2.5rem;
+            color: #0800A4;
+            /* padding-left: .5rem; */
+            margin-left: .5rem;
+            padding-right: .5rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--<img src="http://m.qpic.cn/psc?/V13NgOEm0imH95/ruAMsa53pVQWN7FLK88i5j*rcjid3WiA729kiokjD8s3BAcAqLPwbQXCzDlyva06BfyuPIL3ez24pQ.BZuNYtuV7Rh3Ei9TA.UV0aXjbpUA!/b&bo=OASLAAAAAAADB5U!&rf=viewer_4" width="100%" height="60px">-->
+    <img src="./topbar.png" width="100%" height="45px">
+    <div class="contain">
+        <br>
+        <h5 class="text">疫情防控报备证明</h5>
+
+        <div class="time">
+        </div>
+        <div class="count">本页面当日访问<span class="span">67782</span>次</div>
+        <div class="tg">
+            <img id="fl" src="./all.png">
+            <img src="./touxiang.jpg" alt="" id="f2">
+        </div>
+        <!-- skd-->
+            <div class="nei">
+            <div class="tx"></div>
+            <div class="tx">学号：181130033<br></div>
+            <div class="tx">学院：政法学院<br></div>
+            <div class="tx">班级：政法1802班<br></div>
+            <div class="tx">出入事由：因私<br></div>
+            <div class="tx">出入时间：<br></div>
+            <div class="tx">审批部门：政法学院<br></div>
+            <div class='btnList'>
+                <button class="btn1 btn">再次报备</button>
+                <button class="btn2 btn">刷新</button>
+                <button class="btn3 btn">返回</button>
+            </div>
+            <br>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="./time.js?time=New Date()">
+    </script>
+    <script src="./flexible.js"></script>
+</body>
+
+</html>
